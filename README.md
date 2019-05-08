@@ -8,6 +8,13 @@ After uploading a file, a page is returned with the name of the uploaded file:
 
 ![alt text](https://user-images.githubusercontent.com/207474/57368850-d68a5800-7194-11e9-82cf-205453a3f0d5.png "Screenshot 2")
 
+Testing with curl:
+
+```
+$ curl -F name_attribute_value_in_html=@_DSC7743.jpg http://localhost:7071/api/post-multipart-form-data
+Processed file with filename: _DSC7743.jpg
+```
+
 Code tested on:
 
 ```
